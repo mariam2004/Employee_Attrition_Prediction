@@ -282,5 +282,5 @@ Employee-Attrition-Prediction/
 
  Data Scientist | ML Engineer  
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/yourprofile)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/mariam-kedr-mariamahmed)
 ---
