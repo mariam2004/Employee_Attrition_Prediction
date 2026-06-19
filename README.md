@@ -7,7 +7,7 @@
 ![Status](https://img.shields.io/badge/Status-Complete-238636?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
 
-> A senior-level, end-to-end machine learning project predicting employee attrition using the IBM HR Analytics dataset. Covers full EDA, 9 ML models, hyperparameter tuning, explainable AI, and actionable HR recommendations.
+>  end-to-end machine learning project predicting employee attrition using the IBM HR Analytics dataset. Covers full EDA, 9 ML models, hyperparameter tuning, explainable AI, and actionable HR recommendations.
 
 ---
 
