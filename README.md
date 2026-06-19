@@ -149,30 +149,40 @@ Tuned via `RandomizedSearchCV` (RF, XGBoost) and `GridSearchCV` (SVM) with **Str
 
 ## 📈 Model Comparison
 
-Models ranked by F1 Score (primary) and ROC-AUC (secondary):
+Models were ranked primarily using **F1 Score**
 
-| Rank | Model | F1 | ROC-AUC | Accuracy |
-|---|---|---|---|---|
-| 🥇 | XGBoost (Tuned) | *Best* | *Best* | High |
-| 🥈 | Random Forest (Tuned) | High | High | High |
-| 🥉 | Gradient Boosting | High | High | High |
-| 4 | Logistic Regression | Good | Good | Good |
-| 5 | SVM (Tuned) | Good | Good | Good |
-
-*Exact values generated at runtime — ensemble/boosting models consistently top the leaderboard.*
+| Rank | Model | F1 Score | ROC-AUC | Accuracy |
+|------|--------|----------|----------|----------|
+| 🥇 | SVM (Tuned) | 0.4902 | 0.7903 | 0.8231 |
+| 🥈 | SVM | 0.4902 | 0.7903 | 0.8231 |
+| 🥉 | Logistic Regression | 0.4733 | 0.7986 | 0.7653 |
+| 4 | XGBoost | 0.4471 | 0.7660 | 0.8401 |
+| 5 | XGBoost (Tuned) | 0.4299 | 0.7903 | 0.7925 |
 
 ---
 
-## 🥇 Best Model
+## 🥇 Best Model: Support Vector Machine (SVM - Tuned)
 
-**XGBoost (Tuned)** selected as the best model based on:
-- Highest F1 Score on the minority class (Attrition = Yes)
-- Highest ROC-AUC indicating superior discriminative ability
-- Native handling of class imbalance via `scale_pos_weight`
-- Built-in regularization (L1/L2) preventing overfitting
-- Fast inference — suitable for real-time HR systems
+### Performance Metrics
+
+| Metric | Score |
+|----------|----------|
+| Accuracy | 82.31% |
+| Precision | 45.45% |
+| Recall | 53.19% |
+| F1 Score | 49.02% |
+| ROC-AUC | 79.03% |
+
+### Why SVM Was Selected
+
+- Achieved the **highest F1 Score** among all evaluated models.
+- Maintained a strong balance between **Precision** and **Recall**.
+- Demonstrated solid generalization performance on unseen data.
+- Delivered competitive ROC-AUC performance, indicating good class separation.
+- Effectively captured complex relationships within employee behavioral and workplace factors.
 
 ---
+
 
 ## 💡 Key Business Insights
 
