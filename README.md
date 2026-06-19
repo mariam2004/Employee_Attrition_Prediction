@@ -287,26 +287,7 @@ Employee-Attrition-Prediction/
 
 ## 👤 Author
 
-**[Your Name]**  
 Senior Data Scientist | ML Engineer  
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/yourprofile)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github)](https://github.com/yourusername)
-
 ---
-
-## 📄 License
-
-This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
-
----
-
-## 🙏 Acknowledgments
-
-- **IBM** for releasing the HR Analytics dataset
-- **UCI Machine Learning Repository** for dataset hosting
-- **Scikit-learn** and **XGBoost** open-source communities
-
----
-
-*Built with ❤️ as a senior-level data science portfolio project*
