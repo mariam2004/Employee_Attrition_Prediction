@@ -81,7 +81,7 @@ Model Evaluation & Selection (F1 + ROC-AUC)
       ↓
 Explainable AI (Feature Importance)
       ↓
-Risk Profiling & HR Recommendations
+Risk Profiling & Recommendations
 ```
 
 ---
