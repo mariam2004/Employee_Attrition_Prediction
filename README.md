@@ -242,31 +242,15 @@ Upload the notebook and dataset to Colab, then run all cells.
 ```
 Employee-Attrition-Prediction/
 │
-├── notebooks/
-│   └── Employee_Attrition_Prediction.ipynb  ← Main notebook
+├── Employee_Attrition_Prediction.ipynb  ← Main notebook
+│   
 │
 ├── data/
 │   └── WA_Fn-UseC_-HR-Employee-Attrition.csv
 │
-├── images/                                   ← Generated visualizations
-│   ├── 01_target_distribution.png
-│   ├── 02_numerical_distributions.png
-│   ├── 03_boxplots.png
-│   ├── 04_categorical_attrition.png
-│   ├── 05_correlation_heatmap.png
-│   ├── 06_age_income_bivariate.png
-│   ├── 07_overtime_attrition.png
-│   ├── 08_satisfaction_attrition.png
-│   ├── 09_role_dept_attrition.png
-│   ├── 10_demographic_factors.png
-│   ├── 11_model_comparison_dashboard.png
-│   ├── 12_roc_curves_all.png
-│   ├── 13_feature_importance.png
-│   └── 14_risk_distribution.png
 │
 ├── requirements.txt
-├── README.md
-└── LICENSE
+└── README.md
 ```
 
 ---
@@ -296,7 +280,7 @@ Employee-Attrition-Prediction/
 
 ## 👤 Author
 
-Senior Data Scientist | ML Engineer  
+ Data Scientist | ML Engineer  
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/yourprofile)
 ---
